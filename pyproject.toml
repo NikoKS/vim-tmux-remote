@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "auto_nvr"
-version = "0.1.0"
+version = "1.0.0"
 description = "automatic nvim server selection for neovim-remote program"
-authors = ["nsetiawan"]
+authors = ["NikoKS"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
