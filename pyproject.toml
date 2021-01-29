@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "auto_nvr"
+version = "0.1.0"
+description = "automatic nvim server selection for neovim-remote program"
+authors = ["nsetiawan"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+neovim-remote = "^2.4.0"
+PyYAML = "^5.4.1"
+fire = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+mypy = "^0.800"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+vir = 'auto_nvr.auto_nvr:main'
