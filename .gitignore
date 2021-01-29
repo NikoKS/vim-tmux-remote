@@ -1,6 +1,6 @@
 __pycache__
 dist
-.vim
+.vim*
 .mypy*
 *.lock
 *.log
