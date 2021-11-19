@@ -73,7 +73,7 @@ def send(filename: str):
 
     pid = detect_nvim_pid()
     if not pid:
-        cprint(f'No running vim instance detected. Creating new vim window', 'green')
+        cprint(f'No running vim instance detected. exiting', 'red')
         exit(0)
 
     server = get_nvim_server(pid)
